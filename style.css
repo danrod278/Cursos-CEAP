@@ -1,0 +1,270 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("https://ceappedreira.org.br/wp-content/uploads/2019/06/Fotosite-14.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   
+}
+@font-face{
+    font-family: 'Europa-Grotesk';
+    src: url("EuropaGroteskSH-Bol.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "poppins";
+    src: url('Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'Rajdhani-Medium';
+    src: url("Rajdhani-Medium.ttf") format('truetype');
+}
+header{
+    background-color: rgba(64, 75, 90, 0.795);
+    margin: 0 auto;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+}
+#ceap_main{         
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+}
+#cursos{
+    font-size: 80px;
+    font-family: 'Europa-Grotesk';
+    color: rgb(240, 241, 243);
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.div{
+    width: 95%;
+    height:95%;
+    background-color: rgba(64, 75, 90, 0.795);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 580px;
+    margin-top: 30px;
+    border-radius:15px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.295);
+
+}
+.divcursos {
+    width: 95%;
+    background-color: rgba(64, 75, 90, 0.795);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;/**/
+    width: 565px;
+
+    margin-top: 30px;
+    border-radius:15px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.295);
+}
+.divmat {
+    width: 95%;
+    height:auto;
+    background-color: rgba(64, 75, 90, 0.795);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    margin-top: 10px;
+    border-radius:15px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.295);
+}
+.paragrafoM { 
+    font-size: 25px;
+    width: 500px;
+    height:auto;
+    text-align: start;
+    margin-top: 30px;
+    margin-left: 23px;
+    font-family: "poppins";
+    color: aliceblue;
+}
+.paragrafoET {
+    font-size: 23px;
+    width: 500px;
+    height: 450px;
+    text-align: start;
+    margin-top: 30px;
+    margin-left: 23px;
+    font-family: "poppins";
+    color: aliceblue;
+}
+.paragrafo{
+    font-size: 16px;
+    width: 500px;
+    height: 490px;
+    text-align: start;
+    margin-top: 30px;
+    font-family: "poppins";
+    color: aliceblue;
+}
+.paragrafocursos {
+    font-size: 20px;
+    width: 500px;
+    /* height: 490px; */
+    margin-left: 0px;
+    margin-top: 10px;
+    font-family: "poppins";
+    color: aliceblue;
+}
+.titulo{
+    font-family: 'Europa-Grotesk';
+    font-size: 75px;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    
+}
+.titulocursos {
+    font-family: 'Europa-Grotesk';
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+.container{
+    height: 80%;
+}
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.header{
+    text-align: center;
+    color: rgb(35, 50, 82);
+    border-radius: 2px;
+    
+}
+.quad-content {
+    margin-top:10px;
+    width: 290px;
+    height: 290px;
+    font-size: 13px;
+    margin-top: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 20px;
+}
+#quadrado2 {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#quadrado {
+    display: inline-block;
+    margin-left: 0px;
+    margin-bottom: 30px; 
+    margin-top: 50px;
+}
+#quadrado3 { 
+    display: inline-block;
+    margin-left:0px;
+    color: White;
+}
+#quadrado4{
+    border-color: white;  
+    display: inline-block;
+    margin-left:0px;
+   
+}
+.voltar{
+    transform: rotate(180deg);
+    width: 130px;
+}
+.logo_ceap{
+    position: relative;
+    width: auto;
+    height: 85%;
+    margin-top: 10px;
+}
+:visited {
+    color: white;
+}
+a{
+    color: white;
+    margin-left: 110px;
+}
+a:hover {
+    color: blue;
+}
+.informatica {
+    background-image: url("https://t.ctcdn.com.br/YWsB_RGK96U2EJ6klQf4-zP5s-E=/1024x0/smart/i803653.jpeg");
+    
+
+}
+.Administração {
+    background-image: url("https://ceappedreira.org.br/wp-content/uploads/2021/10/DVTPalestra.png");
+    
+}
+.Redes {
+    background-image: url("https://ceappedreira.org.br/wp-content/uploads/2021/08/SN49412.jpg");
+    
+}
+.prod{
+    background-image: url("https://ceappedreira.org.br/wp-content/uploads/2022/03/producao-visual.jpg");
+    
+}
+.nossoscursos{
+    background-image: url("https://ceappedreira.org.br/wp-content/uploads/2019/06/IMG_9938.jpg");
+}
+.mat{
+    background-image: url("https://ceappedreira.org.br/wp-content/uploads/2021/10/DVTPalestra-1024x576.png");
+    
+}
+.quadrados{
+    width: 310px;
+    height: 310px;
+    border-radius: 14px;
+    border-style: hidden;
+    background-color: rgba(64, 75, 90, 0.795);
+    border-color: white; 
+    color: White;
+    margin: 60px;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0px; 
+}
+.footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+    background-color: rgba(212, 225, 236, 0.89);
+    margin-top: auto;
+}
+.pf{
+    margin-bottom: 100px;
+    margin-right: 20px;
+    font-family: 'Rajdhani-Medium';
+    font-size: 20px;
+}
+.mae{
+    margin: 0 auto;
+}
+.second-line{
+    margin-top:-50px;
+}
